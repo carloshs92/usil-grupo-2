@@ -2,7 +2,7 @@
 
 import { useChat } from "@ai-sdk/react";
 import { IoSend } from "react-icons/io5"; // Send icon
-import { FaUserCircle, FaRobot } from "react-icons/fa"; // User and basic Bot icon
+import { FaUserCircle } from "react-icons/fa"; // User and basic Bot icon
 import { MdSportsSoccer } from "react-icons/md"; // Thematic bot icon
 import { AiOutlineLoading3Quarters } from "react-icons/ai"; // Loading spinner icon
 
