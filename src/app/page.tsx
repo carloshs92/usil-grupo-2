@@ -70,7 +70,10 @@ export default function Chat() {
                           ) : (
                             ""
                           )}
-                          {(part.toolInvocation as any)?.result?.message}
+
+                          {part.toolInvocation.state === "result"
+                            ? part.toolInvocation?.result?.message
+                            : "Recibiendo respuesta..."}
                         </span>
                       );
                   }
